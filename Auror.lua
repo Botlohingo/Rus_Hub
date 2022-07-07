@@ -10493,7 +10493,7 @@ if BF then
 		UpdateChestChams() 
 	end)
 	PlayerEspTab:Toggle("ESP Devil Fruit",espdevilfruit,function(a)
-		FruitESP = a
+		DevilFruitESP = a
 		UpdateDevilChams() 
 	end)
 	PlayerEspTab:Toggle("ESP Flower",espflower,function(a)
